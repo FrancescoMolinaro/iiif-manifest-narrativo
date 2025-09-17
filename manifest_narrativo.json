@@ -1,0 +1,117 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/story/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "La scoperta del manoscritto"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Un viaggio attraverso le pagine di un antico manoscritto ritrovato in una biblioteca dimenticata."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iiif/story/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Capitolo 1: Il ritrovamento"
+        ]
+      },
+      "height": 3000,
+      "width": 2000,
+      "items": [
+        {
+          "id": "https://example.org/iiif/story/page/1/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.example.org/image1/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://example.org/iiif/story/canvas/1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/story/canvas/1/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Qui il protagonista trova il manoscritto nascosto dietro uno scaffale polveroso.",
+                "format": "text/plain",
+                "language": "it"
+              },
+              "target": "https://example.org/iiif/story/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/story/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Capitolo 2: La traduzione"
+        ]
+      },
+      "height": 3000,
+      "width": 2000,
+      "items": [
+        {
+          "id": "https://example.org/iiif/story/page/2/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/page/2/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.example.org/image2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://example.org/iiif/story/canvas/2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/story/canvas/2/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/canvas/2/annotation/1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Il manoscritto viene decifrato grazie a un antico dizionario latino.",
+                "format": "text/plain",
+                "language": "it"
+              },
+              "target": "https://example.org/iiif/story/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
