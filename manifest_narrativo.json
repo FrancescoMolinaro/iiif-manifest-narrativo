@@ -4,9 +4,7 @@
   "type": "Manifest",
   "label": { "en": ["La scoperta del manoscritto"] },
   "summary": {
-    "en": [
-      "Un viaggio attraverso le pagine di un antico manoscritto ritrovato in una biblioteca dimenticata."
-    ]
+    "en": ["Un viaggio attraverso le pagine di un antico manoscritto ritrovato in una biblioteca dimenticata."]
   },
   "items": [
     {
@@ -21,33 +19,45 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "@id": "https://example.org/iiif/story/page/1/annotation/1",
-              "@type": "oa:Annotation",
-              "motivation": ["oa:commenting"],
-              "resource": [
-                {
-                  "@type": "dctypes:Image",
-                  "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/b834d944-4f86-48a4-859b-296e22da00db/full/full/0/default.jpg",
-                  "format": "image/jpeg"
+              "id": "https://example.org/iiif/story/page/1/image-annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/b834d944-4f86-48a4-859b-296e22da00db/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://example.org/iiif/story/canvas/1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "@id": "https://example.org/iiif/story/page/1/oa-annotation/1",
+          "@type": "oa:Annotation",
+          "motivation": ["oa:commenting"],
+          "resource": [
+            {
+              "@type": "dctypes:Text",
+              "chars": "Focus region for plugin"
+            }
+          ],
+          "on": [
+            {
+              "@type": "oa:SpecificResource",
+              "full": "https://example.org/iiif/story/canvas/1",
+              "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                  "@type": "oa:FragmentSelector",
+                  "value": "xywh=400,600,800,600"
+                },
+                "item": {
+                  "@type": "oa:SvgSelector",
+                  "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M400,600h800v600H400z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
                 }
-              ],
-              "on": [
-                {
-                  "@type": "oa:SpecificResource",
-                  "full": "https://example.org/iiif/story/canvas/1",
-                  "selector": {
-                    "@type": "oa:Choice",
-                    "default": {
-                      "@type": "oa:FragmentSelector",
-                      "value": "xywh=400,600,800,600"
-                    },
-                    "item": {
-                      "@type": "oa:SvgSelector",
-                      "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M400,600h800v600H400z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
-                    }
-                  }
-                }
-              ]
+              }
             }
           ]
         }
@@ -65,33 +75,45 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "@id": "https://example.org/iiif/story/page/2/annotation/1",
-              "@type": "oa:Annotation",
-              "motivation": ["oa:commenting"],
-              "resource": [
-                {
-                  "@type": "dctypes:Image",
-                  "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/2cea4a3c-789c-439e-b5d7-c0762bc36ff3/full/full/0/default.jpg",
-                  "format": "image/jpeg"
+              "id": "https://example.org/iiif/story/page/2/image-annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/2cea4a3c-789c-439e-b5d7-c0762bc36ff3/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://example.org/iiif/story/canvas/2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "@id": "https://example.org/iiif/story/page/2/oa-annotation/1",
+          "@type": "oa:Annotation",
+          "motivation": ["oa:commenting"],
+          "resource": [
+            {
+              "@type": "dctypes:Text",
+              "chars": "Focus region for plugin"
+            }
+          ],
+          "on": [
+            {
+              "@type": "oa:SpecificResource",
+              "full": "https://example.org/iiif/story/canvas/2",
+              "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                  "@type": "oa:FragmentSelector",
+                  "value": "xywh=200,500,1200,1000"
+                },
+                "item": {
+                  "@type": "oa:SvgSelector",
+                  "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M200,500h1200v1000H200z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
                 }
-              ],
-              "on": [
-                {
-                  "@type": "oa:SpecificResource",
-                  "full": "https://example.org/iiif/story/canvas/2",
-                  "selector": {
-                    "@type": "oa:Choice",
-                    "default": {
-                      "@type": "oa:FragmentSelector",
-                      "value": "xywh=200,500,1200,1000"
-                    },
-                    "item": {
-                      "@type": "oa:SvgSelector",
-                      "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M200,500h1200v1000H200z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
-                    }
-                  }
-                }
-              ]
+              }
             }
           ]
         }
