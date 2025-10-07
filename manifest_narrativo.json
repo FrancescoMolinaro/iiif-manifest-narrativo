@@ -28,36 +28,16 @@
                 "format": "image/jpeg"
               },
               "target": "https://example.org/iiif/story/canvas/1"
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "@id": "https://example.org/iiif/story/page/1/oa-annotation/1",
-          "@type": "oa:Annotation",
-          "motivation": ["oa:commenting"],
-          "resource": [
+            },
             {
-              "@type": "dctypes:Text",
-              "chars": "Focus region for plugin"
-            }
-          ],
-          "on": [
-            {
-              "@type": "oa:SpecificResource",
-              "full": "https://example.org/iiif/story/canvas/1",
-              "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                  "@type": "oa:FragmentSelector",
-                  "value": "xywh=400,600,800,600"
-                },
-                "item": {
-                  "@type": "oa:SvgSelector",
-                  "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M400,600h800v600H400z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
-                }
-              }
+              "id": "https://example.org/iiif/story/page/1/region-annotation-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Focus region 1"
+              },
+              "target": "https://example.org/iiif/story/canvas/1#xywh=400,600,800,600"
             }
           ]
         }
@@ -84,36 +64,16 @@
                 "format": "image/jpeg"
               },
               "target": "https://example.org/iiif/story/canvas/2"
-            }
-          ]
-        }
-      ],
-      "annotations": [
-        {
-          "@id": "https://example.org/iiif/story/page/2/oa-annotation/1",
-          "@type": "oa:Annotation",
-          "motivation": ["oa:commenting"],
-          "resource": [
+            },
             {
-              "@type": "dctypes:Text",
-              "chars": "Focus region for plugin"
-            }
-          ],
-          "on": [
-            {
-              "@type": "oa:SpecificResource",
-              "full": "https://example.org/iiif/story/canvas/2",
-              "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                  "@type": "oa:FragmentSelector",
-                  "value": "xywh=200,500,1200,1000"
-                },
-                "item": {
-                  "@type": "oa:SvgSelector",
-                  "value": "<svg xmlns='http://www.w3.org/2000/svg'><path d='M200,500h1200v1000H200z' fill='none' stroke='#00BFFF' stroke-width='1'/></svg>"
-                }
-              }
+              "id": "https://example.org/iiif/story/page/2/region-annotation-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Focus region 2"
+              },
+              "target": "https://example.org/iiif/story/canvas/2#xywh=200,500,1200,1000"
             }
           ]
         }
