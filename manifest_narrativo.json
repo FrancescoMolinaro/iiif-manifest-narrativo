@@ -29,7 +29,8 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://example.org/iiif/story/canvas/1#xywh=400,600,800,600"
+              "target": "https://example.org/iiif/story/canvas/1",
+              "xywh": "400,600,800,600"
             }
           ]
         }
@@ -55,7 +56,8 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://example.org/iiif/story/canvas/2#xywh=200,500,1200,1000"
+              "target": "https://example.org/iiif/story/canvas/2",
+              "xywh": "200,500,1200,1000"
             }
           ]
         }
