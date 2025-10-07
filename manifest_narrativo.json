@@ -33,11 +33,12 @@
               "id": "https://example.org/iiif/story/page/1/region-annotation-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "body": {
-                "type": "TextualBody",
-                "value": "Focus region 1"
+              "resource": {
+                "type": "Text",
+                "format": "text/html",
+                "chars": "Focus region 1"
               },
-              "target": "https://example.org/iiif/story/canvas/1#xywh=400,600,800,600"
+              "on": "https://example.org/iiif/story/canvas/1#xywh=400,600,800,600"
             }
           ]
         }
@@ -69,11 +70,12 @@
               "id": "https://example.org/iiif/story/page/2/region-annotation-1",
               "type": "Annotation",
               "motivation": "commenting",
-              "body": {
-                "type": "TextualBody",
-                "value": "Focus region 2"
+              "resource": {
+                "type": "Text",
+                "format": "text/html",
+                "chars": "Focus region 2"
               },
-              "target": "https://example.org/iiif/story/canvas/2#xywh=200,500,1200,1000"
+              "on": "https://example.org/iiif/story/canvas/2#xywh=200,500,1200,1000"
             }
           ]
         }
