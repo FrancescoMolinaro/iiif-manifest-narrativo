@@ -2,11 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://example.org/iiif/story/manifest.json",
   "type": "Manifest",
-  "label": {
-    "en": [
-      "La scoperta del manoscritto"
-    ]
-  },
+  "label": { "en": ["La scoperta del manoscritto"] },
   "summary": {
     "en": [
       "Un viaggio attraverso le pagine di un antico manoscritto ritrovato in una biblioteca dimenticata."
@@ -16,11 +12,7 @@
     {
       "id": "https://example.org/iiif/story/canvas/1",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Capitolo 1: Il ritrovamento"
-        ]
-      },
+      "label": { "en": ["Capitolo 1: Il ritrovamento"] },
       "height": 3000,
       "width": 2000,
       "items": [
@@ -37,7 +29,13 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://example.org/iiif/story/canvas/1"
+              "target": {
+                "source": "https://example.org/iiif/story/canvas/1",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=400,600,800,600"
+                }
+              }
             }
           ]
         }
@@ -52,11 +50,7 @@
     {
       "id": "https://example.org/iiif/story/canvas/2",
       "type": "Canvas",
-      "label": {
-        "en": [
-          "Capitolo 2: La traduzione"
-        ]
-      },
+      "label": { "en": ["Capitolo 2: La traduzione"] },
       "height": 3000,
       "width": 2000,
       "items": [
@@ -73,7 +67,13 @@
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://example.org/iiif/story/canvas/2"
+              "target": {
+                "source": "https://example.org/iiif/story/canvas/2",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=200,500,1200,1000"
+                }
+              }
             }
           ]
         }
