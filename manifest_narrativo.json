@@ -15,7 +15,6 @@
         "oa:commenting"
       ],
       "@type": "oa:Annotation",
-      "@id": "https://dspaceglam7dev.4science.cloud/server/annotation/dfbb194e-ca83-4a7c-9914-72426d82faa7",
       "on": [
         {
           "@type": "oa:SpecificResource",
