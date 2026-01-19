@@ -15,7 +15,7 @@
         "oa:commenting"
       ],
       "@type": "oa:Annotation",
-      "@id": "https://dnoneill.github.io/annotate/annotations/e03e499e-5337-11ea-8df4-623695ea5d28.json",
+      "@id": "https://dspaceglam7dev.4science.cloud/server/annotation/dfbb194e-ca83-4a7c-9914-72426d82faa7",
       "on": [
         {
           "@type": "oa:SpecificResource",
@@ -38,7 +38,7 @@
         }
       ],
       "oa:annotatedBy": [
-        "epoz"
+        "test user"
       ]
     },
     {
@@ -77,46 +77,6 @@
       "@type": "oa:Annotation",
       "@id": "https://dnoneill.github.io/annotate/annotations/f2211916-aee5-11ea-90fd-0a9e0f6e7b27.json",
       "@context": "http://iiif.io/api/presentation/2/context.json",
-      "oa:annotatedBy": [
-        "gg"
-      ]
-    },
-    {
-      "resource": [
-        {
-          "@type": "dctypes:Text",
-          "format": "text/html",
-          "chars": "\u003Cp\u003Egr esg resd\u003C/p\u003E\n\u003Cp\u003Eg redgoih erdgedr\u003C/p\u003E\n\u003Cp\u003Er goij doergh\u003C/p\u003E"
-        }
-      ],
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "oa:annotatedAt": "2020-06-15T08:56:02.508Z",
-      "motivation": [
-        "oa:commenting"
-      ],
-      "@type": "oa:Annotation",
-      "@id": "https://dnoneill.github.io/annotate/annotations/0d759822-aee6-11ea-90fd-0a9e0f6e7b27.json",
-      "on": [
-        {
-          "@type": "oa:SpecificResource",
-          "selector": {
-            "@type": "oa:Choice",
-            "item": {
-              "@type": "oa:SvgSelector",
-              "value": "\u003Csvg xmlns='http://www.w3.org/2000/svg'\u003E\u003Cpath xmlns=\"http://www.w3.org/2000/svg\" d=\"M726.00018,2156.91361h475.85467v0h475.85467v326.94554v326.94554h-475.85467h-475.85467v-326.94554z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_edae133f-4763-4538-9181-df8d9038db1b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/\u003E\u003C/svg\u003E"
-            },
-            "default": {
-              "@type": "oa:FragmentSelector",
-              "value": "xywh=726,2157,952,654"
-            }
-          },
-          "within": {
-            "@type": "sc:Manifest",
-            "@id": "https://d.lib.ncsu.edu/collections/catalog/0052574/manifest"
-          },
-          "full": "https://d.lib.ncsu.edu/collections/canvas/0052574"
-        }
-      ],
       "oa:annotatedBy": [
         "gg"
       ]
