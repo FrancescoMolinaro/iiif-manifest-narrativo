@@ -1,85 +1,129 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/iiif/story/manifest.json",
-  "type": "Manifest",
-  "label": { "en": ["La scoperta del manoscritto"] },
-  "summary": {
-    "en": ["Un viaggio attraverso le pagine di un antico manoscritto ritrovato in una biblioteca dimenticata."]
-  },
-  "items": [
+  "oa:serializedAt": "2020-06-15T08:56:02.508Z",
+  "resources": [
     {
-      "id": "https://example.org/iiif/story/canvas/1",
-      "type": "Canvas",
-      "label": { "en": ["Capitolo 1: Il ritrovamento"] },
-      "height": 3000,
-      "width": 2000,
-      "items": [
+      "resource": [
         {
-          "id": "https://example.org/iiif/story/page/1/annotationpage",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/story/page/1/image-annotation",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/b834d944-4f86-48a4-859b-296e22da00db/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg"
-              },
-              "target": "https://example.org/iiif/story/canvas/1"
-            },
-            {
-              "id": "https://example.org/iiif/story/page/1/region-annotation-1",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "resource": {
-                "type": "Text",
-                "format": "text/html",
-                "chars": "Focus region 1"
-              },
-              "on": "https://example.org/iiif/story/canvas/1#xywh=400,600,800,600"
-            }
-          ]
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "\u003Cp\u003Eadcdcdcdc\u003C/p\u003E"
         }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "@type": "oa:Annotation",
+      "@id": "https://dnoneill.github.io/annotate/annotations/e03e499e-5337-11ea-8df4-623695ea5d28.json",
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "selector": {
+            "@type": "oa:Choice",
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M301.50647,1313.06274v-684.22704h269.54398v684.22704z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+            },
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=301,628,269,684"
+            }
+          },
+          "full": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e",
+          "within": {
+            "@type": "sc:Manifest",
+            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest"
+          }
+        }
+      ],
+      "oa:annotatedBy": [
+        "epoz"
       ]
     },
     {
-      "id": "https://example.org/iiif/story/canvas/2",
-      "type": "Canvas",
-      "label": { "en": ["Capitolo 2: La traduzione"] },
-      "height": 3000,
-      "width": 2000,
-      "items": [
+      "resource": [
         {
-          "id": "https://example.org/iiif/story/page/2/annotationpage",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/story/page/2/image-annotation",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://dspaceglam-demo.staging.4science.cloud/iiif-server/2cea4a3c-789c-439e-b5d7-c0762bc36ff3/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg"
-              },
-              "target": "https://example.org/iiif/story/canvas/2"
-            },
-            {
-              "id": "https://example.org/iiif/story/page/2/region-annotation-1",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "resource": {
-                "type": "Text",
-                "format": "text/html",
-                "chars": "Focus region 2"
-              },
-              "on": "https://example.org/iiif/story/canvas/2#xywh=200,500,1200,1000"
-            }
-          ]
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "\u003Cp\u003Efsdjh fdsogfdsg\u003C/p\u003E\n\u003Cp\u003Edf ihujhs dgfs\u003C/p\u003E\n\u003Cp\u003Eds iuhsdigf\u003C/p\u003E"
         }
+      ],
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "selector": {
+            "@type": "oa:Choice",
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M301.50647,1313.06274v-684.22704h269.54398v684.22704z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+            },
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=741,2077,904,736"
+            }
+          },
+          "full": "https://d.lib.ncsu.edu/collections/canvas/0052574",
+          "within": {
+            "@type": "sc:Manifest",
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/0052574/manifest"
+          }
+        }
+      ],
+      "oa:annotatedAt": "2020-06-15T08:55:16.318Z",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "@type": "oa:Annotation",
+      "@id": "https://dnoneill.github.io/annotate/annotations/f2211916-aee5-11ea-90fd-0a9e0f6e7b27.json",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "oa:annotatedBy": [
+        "gg"
+      ]
+    },
+    {
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "format": "text/html",
+          "chars": "\u003Cp\u003Egr esg resd\u003C/p\u003E\n\u003Cp\u003Eg redgoih erdgedr\u003C/p\u003E\n\u003Cp\u003Er goij doergh\u003C/p\u003E"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "oa:annotatedAt": "2020-06-15T08:56:02.508Z",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "@type": "oa:Annotation",
+      "@id": "https://dnoneill.github.io/annotate/annotations/0d759822-aee6-11ea-90fd-0a9e0f6e7b27.json",
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "selector": {
+            "@type": "oa:Choice",
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "\u003Csvg xmlns='http://www.w3.org/2000/svg'\u003E\u003Cpath xmlns=\"http://www.w3.org/2000/svg\" d=\"M726.00018,2156.91361h475.85467v0h475.85467v326.94554v326.94554h-475.85467h-475.85467v-326.94554z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_edae133f-4763-4538-9181-df8d9038db1b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/\u003E\u003C/svg\u003E"
+            },
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=726,2157,952,654"
+            }
+          },
+          "within": {
+            "@type": "sc:Manifest",
+            "@id": "https://d.lib.ncsu.edu/collections/catalog/0052574/manifest"
+          },
+          "full": "https://d.lib.ncsu.edu/collections/canvas/0052574"
+        }
+      ],
+      "oa:annotatedBy": [
+        "gg"
       ]
     }
-  ]
+  ],
+  "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
+  "@type": "sc:AnnotationList",
+  "@id": "https://dnoneill.github.io/annotate/annotations/e03e499e-5337-11ea-8df4-623695ea5d28.json-list.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
 }
