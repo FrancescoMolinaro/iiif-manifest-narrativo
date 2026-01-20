@@ -2,18 +2,14 @@
   "oa:serializedAt": "2020-06-15T08:56:02.508Z",
   "resources": [
     {
-      "resource": [
-        {
-          "@type": "dctypes:Text",
-          "format": "text/html",
-          "chars": "test1"
-        }
-      ],
-      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
-      "motivation": [
-        "oa:commenting"
-      ],
       "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource": {
+        "@type": "dctypes:Text",
+        "format": "text/html",
+        "chars": "test1"
+      },
+      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
       "on": [
         {
           "@type": "oa:SpecificResource",
@@ -34,27 +30,17 @@
             "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest"
           }
         }
-      ],
-      "oa:annotatedBy": [
-        {
-          "@type": "foaf:Person",
-          "name": "test user"
-        }
       ]
     },
-     {
-      "resource": [
-        {
-          "@type": "dctypes:Text",
-          "format": "text/html",
-          "chars": "test annotation"
-        }
-      ],
-      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
-      "motivation": [
-        "oa:commenting"
-      ],
+    {
       "@type": "oa:Annotation",
+      "motivation": ["oa:commenting"],
+      "resource": {
+        "@type": "dctypes:Text",
+        "format": "text/html",
+        "chars": "test annotation"
+      },
+      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
       "on": [
         {
           "@type": "oa:SpecificResource",
@@ -62,11 +48,11 @@
             "@type": "oa:Choice",
             "item": {
               "@type": "oa:SvgSelector",
-              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M301.50647,1313.06274v-684.22704h269.54398v684.22704z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M163.21024,372.65606v-295.92406h243.43942v295.92406z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
             },
             "default": {
               "@type": "oa:FragmentSelector",
-              "value": "xywh=301,628,269,684"
+              "value": "xywh=163,76,243,295"
             }
           },
           "full": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3",
@@ -75,13 +61,7 @@
             "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/manifest"
           }
         }
-      ],
-      "oa:annotatedBy": [
-          {
-            "@type": "foaf:Person",
-            "name": "test user"
-          }
-        ]
+      ]
     }
   ],
   "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
