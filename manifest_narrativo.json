@@ -23,9 +23,9 @@
         }
     ],
     "contentLayer": {
-        "@id": "https://tomcrane.github.io/iiif-collector/objects/longer-article-contentlayer",
+        "@id": "https://github.com/FrancescoMolinaro/iiif-manifest-narrativo/edit/main/test_not_existing",
         "@type": "sc:Layer",
-        "label": "Content of 'A Profound Warrior For Us All' article",          
+        "label": "Story test",          
         "otherContent": [
             "https://dspaceglam7dev.4science.cloud/server/annotation/search?uri=https://dspaceglam7dev.4science.cloud/server/annotation/search?uri=https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e",
             "https://dspaceglam7dev.4science.cloud/server/annotation/search?uri=https://dspaceglam7dev.4science.cloud/server/annotation/search?uri=https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3"
