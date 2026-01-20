@@ -9,7 +9,6 @@
           "chars": "\u003Cp\u003Eadcdcdcdc\u003C/p\u003E"
         }
       ],
-      "@context": "http://iiif.io/api/presentation/2/context.json",
       "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
       "motivation": [
         "oa:commenting"
