@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://research.ng-london.org.uk/iiif-projects/json/ng-projects",
+  "id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/manifest_narrativo_annotazioni_esterne.json",
   "type": "Collection",
   "label": {
     "en": [
