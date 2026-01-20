@@ -1,71 +1,26 @@
 {
-  "oa:serializedAt": "2020-06-15T08:56:02.508Z",
-  "resources": [
-    {
-      "@type": "oa:Annotation",
-      "motivation": ["oa:commenting"],
-      "resource": {
-        "@type": "dctypes:Text",
-        "format": "text/html",
-        "chars": "test1"
-      },
-      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
-      "on": [
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/manifest_narrativo.json",
+    "@type": "sc:Range",
+    "label": "A range test",
+    "description": "<p><a href='https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01#?c=0&m=0&s=0&cv=0&z=749.6929%2C3307.2622%2C4049.5239%2C3514.5534'>See this in place across two pages</a></p>",
+    "canvases": [
         {
-          "@type": "oa:SpecificResource",
-          "selector": {
-            "@type": "oa:Choice",
-            "item": {
-              "@type": "oa:SvgSelector",
-              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M301.50647,1313.06274v-684.22704h269.54398v684.22704z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-            },
-            "default": {
-              "@type": "oa:FragmentSelector",
-              "value": "xywh=301,628,269,684"
+            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e#xywh=163,76,243,295",
+            "within": {
+                "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest",
+                "@type": "sc:Manifest",
+                "label": "Test message"
             }
-          },
-          "full": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e",
-          "within": {
-            "@type": "sc:Manifest",
-            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "oa:Annotation",
-      "motivation": ["oa:commenting"],
-      "resource": {
-        "@type": "dctypes:Text",
-        "format": "text/html",
-        "chars": "test annotation"
-      },
-      "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
-      "on": [
+        },
         {
-          "@type": "oa:SpecificResource",
-          "selector": {
-            "@type": "oa:Choice",
-            "item": {
-              "@type": "oa:SvgSelector",
-              "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M163.21024,372.65606v-295.92406h243.43942v295.92406z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-            },
-            "default": {
-              "@type": "oa:FragmentSelector",
-              "value": "xywh=163,76,243,295"
+            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3#xywh=301,628,269,684",
+            "within": {
+                "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/manifest",
+                "@type": "sc:Manifest"
             }
-          },
-          "full": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3",
-          "within": {
-            "@type": "sc:Manifest",
-            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/manifest"
-          }
         }
-      ]
-    }
-  ],
-  "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
-  "@type": "sc:AnnotationList",
-  "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/manifest_narrativo.json",
-  "@context": "http://iiif.io/api/presentation/2/context.json"
-}
+    ]
+}    
+
+
