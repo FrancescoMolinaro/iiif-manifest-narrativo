@@ -37,7 +37,7 @@
   "items": [
     {
       "id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest",
-      "type": "Collection",
+      "type": "Manifest",
       "label": {
         "en": [
           "External Projects"
@@ -46,7 +46,7 @@
     },
     {
       "id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/manifest",
-      "type": "Collection",
+      "type": "Manifest",
       "label": {
         "en": [
           "Exhibitions"
