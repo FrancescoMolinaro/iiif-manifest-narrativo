@@ -6,7 +6,7 @@
     "description": "<p><a href='https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01#?c=0&m=0&s=0&cv=0&z=749.6929%2C3307.2622%2C4049.5239%2C3514.5534'>See this in place across two pages</a></p>",
     "canvases": [
         {
-            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e#xywh=163,76,243,295",
+            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e#xywh=301,628,269,684",
             "within": {
                 "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/manifest",
                 "@type": "sc:Manifest",
@@ -14,7 +14,7 @@
             }
         },
         {
-            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3#xywh=301,628,269,684",
+            "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3#xywh=163,76,243,295",
             "within": {
                 "@id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/manifest",
                 "@type": "sc:Manifest",
