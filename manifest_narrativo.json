@@ -36,7 +36,10 @@
         }
       ],
       "oa:annotatedBy": [
-        "test user"
+        {
+          "@type": "foaf:Person",
+          "name": "test user"
+        }
       ]
     },
      {
@@ -74,8 +77,11 @@
         }
       ],
       "oa:annotatedBy": [
-        "test user"
-      ]
+          {
+            "@type": "foaf:Person",
+            "name": "test user"
+          }
+        ]
     }
   ],
   "oa:annotatedAt": "2020-02-19T16:49:58.226Z",
