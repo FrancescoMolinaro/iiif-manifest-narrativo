@@ -29,11 +29,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/full/full/0/default.jpg",
+                "id": "https://dspaceglam7dev.4science.cloud/iiif-server/29b13c04-ee48-4cf9-afa4-277d32d55a5e/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e#xywh=301,628,269,684"
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e"
             }
           ]
         }
@@ -77,11 +77,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/full/full/0/default.jpg",
+                "id": "https://dspaceglam7dev.4science.cloud/iiif-server/2cea4a3c-789c-439e-b5d7-c0762bc36ff3/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg"
               },
-              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3#xywh=163,76,243,295"
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3"
             }
           ]
         }
