@@ -1,0 +1,111 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/manifest_narrativo.json",
+  "type": "Manifest",
+  "label": {
+    "en": ["A range test"]
+  },
+  "summary": {
+    "en": [
+      "See this in place across two pages: https://d.lib.ncsu.edu/collections/catalog/nubian-message-1995-04-01#?c=0&m=0&s=0&cv=0&z=749.6929%2C3307.2622%2C4049.5239%2C3514.5534"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e",
+      "type": "Canvas",
+      "label": {
+        "en": ["Test message – Part 1"]
+      },
+      "height": 1000,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://example.org/iiif/story/page/1/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/page/1/annotation/painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e#xywh=301,628,269,684"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://github.com/FrancescoMolinaro/iiif-manifest-narrativo/edit/main/test_not_existing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/canvas/1/commentary",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Narrative annotations retrieved from external search service.",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/dfeef7cf-8792-4461-b776-91880913cba0/canvas/29b13c04-ee48-4cf9-afa4-277d32d55a5e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3",
+      "type": "Canvas",
+      "label": {
+        "en": ["Test message 2 – Part 2"]
+      },
+      "height": 1000,
+      "width": 1000,
+      "items": [
+        {
+          "id": "https://example.org/iiif/story/page/2/annotationpage",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/page/2/annotation/painting",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg"
+              },
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3#xywh=163,76,243,295"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://github.com/FrancescoMolinaro/iiif-manifest-narrativo/edit/main/test_not_existing",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/story/canvas/2/commentary",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Narrative annotations retrieved from external search service.",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "https://dspaceglam7dev.4science.cloud/server/iiif/e6658264-14b9-4fa7-84d6-9f0bf5ee4dea/canvas/2cea4a3c-789c-439e-b5d7-c0762bc36ff3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
