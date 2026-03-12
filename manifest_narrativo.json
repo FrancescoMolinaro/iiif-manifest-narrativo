@@ -14,8 +14,8 @@
           "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37",
           "@type": "sc:Canvas",
           "label": "Naya",
-          "width": 1728,
-          "height": 2592,
+          "width": 864,
+          "height": 1296,
           "thumbnail": {
             "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/8996f4ae-d74b-4347-ad48-79394dc2af37/full/90,/0/default.jpg",
             "service": {
