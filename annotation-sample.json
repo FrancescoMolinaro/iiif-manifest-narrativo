@@ -1,0 +1,36 @@
+[
+    {
+        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/c8c4dee3-45e1-4ebf-9fae-0f52cd7605c0",
+        "@type": "oa:Annotation",
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "dcterms:created": "2026-02-27T14:14:04Z",
+        "dcterms:modified": "2026-02-27T14:14:04Z",
+        "motivation": [
+            "oa:commenting"
+        ],
+        "resource": [
+            {
+                "@type": "dctypes:Text",
+                "chars": "<p>trying hard not to nap right now</p>",
+                "http://dev.llgc.org.uk/sas/full_text": "trying hard not to nap right now"
+            }
+        ],
+        "on": [
+            {
+                "@type": "oa:SpecificResource",
+                "full": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37",
+                "selector": {
+                    "@type": "oa:Choice",
+                    "default": {
+                        "@type": "oa:FragmentSelector",
+                        "value": "xywh=128,227,496,564"
+                    },
+                    "item": {
+                        "@type": "oa:SvgSelector",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M128.75503,792.71141v-564.83221h496.10738v564.83221z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    }
+                }
+            }
+        ]
+    }
+]
