@@ -46,7 +46,7 @@
           ],
           "otherContent": [
             {
-              "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/search?uri=https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37",
+              "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/annotation-sample.json",
               "@type": "sc:AnnotationList"
             }
           ]
