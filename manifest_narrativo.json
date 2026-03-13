@@ -3,7 +3,7 @@
   "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/manifest",
   "@type": "sc:Manifest",
   "label": "Naya la Shiba scontrosa",
-  "description": "<i>Questa è la storia di Naya, la Shiba più scontrosa del mondo ma anche molto carina</i>",
+  "description": "<i>cambio testo per update</i>",
   "sequences": [
     {
       "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/sequence/normal",
