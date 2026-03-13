@@ -46,7 +46,9 @@
               },
               "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37"
             }
-          ]
+          ],
+          "width": 1920,
+          "height": 2560
         }
       ]
     }
