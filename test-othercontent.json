@@ -1,0 +1,49 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/manifest",
+  "@type": "sc:Manifest",
+  "label": "Naya la Shiba scontrosa",
+  "description": "<i>cambio testo per update</i>",
+  "sequences": [
+    {
+      "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Naya la Shiba scontrosa",
+      "canvases": [
+        {
+          "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37",
+          "@type": "sc:Canvas",
+          "label": "Naya",
+          "thumbnail": {
+            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/8996f4ae-d74b-4347-ad48-79394dc2af37/full/90,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/8996f4ae-d74b-4347-ad48-79394dc2af37",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "protocol": "http://iiif.io/api/image"
+            },
+            "format": "image/jpeg"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/8996f4ae-d74b-4347-ad48-79394dc2af37/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/8996f4ae-d74b-4347-ad48-79394dc2af37",
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jpeg"
+              },
+              "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/canvas/8996f4ae-d74b-4347-ad48-79394dc2af37"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
