@@ -4,6 +4,11 @@
   "@type": "sc:Manifest",
   "label": "Naya la Shiba scontrosa",
   "description": "<i>cambio testo per update</i>",
+    "seeAlso": {
+    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/manifest/seeAlso",
+    "@type": "sc:AnnotationList",
+    "label": "More descriptions of this resource"
+  },
   "sequences": [
     {
       "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/sequence/normal",
