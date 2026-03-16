@@ -11,7 +11,7 @@
   },
   "sequences": [
     {
-      "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/sequence/normal",
+      "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/sequence/s0",
       "@type": "sc:Sequence",
       "label": "Naya la Shiba scontrosa",
       "canvases": [
