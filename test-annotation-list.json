@@ -1,0 +1,75 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/test-annotation-list.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/dc69b4e8-2468-4d7c-83d1-f8bb92a24d4e",
+      "@type": "oa:Annotation",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "dcterms:created": "2026-03-10T10:47:15Z",
+      "dcterms:modified": "2026-03-10T10:47:15Z",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "chars": "\u003Cp\u003Etest anno casetta militare\u003C/p\u003E",
+          "http://dev.llgc.org.uk/sas/full_text": "test anno casetta militare"
+        }
+      ],
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "full": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/c747b475-b6d0-4064-883e-aa7d6fc8b26e",
+          "selector": {
+            "@type": "oa:Choice",
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=3784,1342,1263,2007"
+            },
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "\u003Csvg xmlns='http://www.w3.org/2000/svg'\u003E\u003Cpath xmlns=\"http://www.w3.org/2000/svg\" d=\"M3784.90504,3349.77257v-2007.05275h1263.69988v2007.05275z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/\u003E\u003C/svg\u003E"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/annotation/6febab8a-5156-4a6f-8b47-f79c7f3468f9",
+      "@type": "oa:Annotation",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "dcterms:created": "2026-03-10T11:00:28Z",
+      "dcterms:modified": "2026-03-10T11:00:28Z",
+      "motivation": [
+        "oa:commenting"
+      ],
+      "resource": [
+        {
+          "@type": "dctypes:Text",
+          "chars": "\u003Cp\u003Etest altra casetta\u003C/p\u003E",
+          "http://dev.llgc.org.uk/sas/full_text": "test altra casetta"
+        }
+      ],
+      "on": [
+        {
+          "@type": "oa:SpecificResource",
+          "full": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/0e67cca5-5f3f-4422-b18f-7b07cf6aedce/canvas/c747b475-b6d0-4064-883e-aa7d6fc8b26e",
+          "selector": {
+            "@type": "oa:Choice",
+            "default": {
+              "@type": "oa:FragmentSelector",
+              "value": "xywh=5334,1579,1606,1505"
+            },
+            "item": {
+              "@type": "oa:SvgSelector",
+              "value": "\u003Csvg xmlns='http://www.w3.org/2000/svg'\u003E\u003Cpath xmlns=\"http://www.w3.org/2000/svg\" d=\"M5334.66849,3084.74521v-1505.57808h1606.91507v1505.57808z\" data-paper-data=\"{&quot;state&quot;:null}\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/\u003E\u003C/svg\u003E"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
