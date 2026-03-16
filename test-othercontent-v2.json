@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/74ef0dc0-524c-482a-8baa-798824ddb286/manifest",
+  "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/test-othercontent-v2.json",
   "@type": "sc:Manifest",
   "label": "Naya la Shiba scontrosa",
   "description": "<i>cambio testo per update</i>",
