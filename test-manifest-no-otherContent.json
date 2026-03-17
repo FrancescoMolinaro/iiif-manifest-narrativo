@@ -1,0 +1,181 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://raw.githubusercontent.com/FrancescoMolinaro/iiif-manifest-narrativo/refs/heads/main/test-manifest-no-otherContent.json",
+    "@type": "sc:Manifest",
+    "label": {
+        "@value": "Parlare la lingua dell'avanguardia: il Nuovo Teatro in Italia (1986-1993)",
+        "@language": "it"
+    }
+    "sequences": [
+        {
+            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": {
+                "@value": "Parlare la lingua dell'avanguardia: il Nuovo Teatro in Italia (1986-1993)",
+                "@language": "it"
+            },
+            "canvases": [
+                {
+                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/2641706c-7542-4b53-b4b2-ae572e55bef6",
+                    "@type": "sc:Canvas",
+                    "label": "Manifesto del Festival di Santarcangelo \"Trilogia d'Estate\", 1985",
+                    "width": 450,
+                    "height": 671,
+                    "thumbnail": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/2641706c-7542-4b53-b4b2-ae572e55bef6/full/90,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/2641706c-7542-4b53-b4b2-ae572e55bef6",
+                            "profile": "http://iiif.io/api/image/2/level0.json",
+                            "protocol": "http://iiif.io/api/image"
+                        },
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/2641706c-7542-4b53-b4b2-ae572e55bef6/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/2641706c-7542-4b53-b4b2-ae572e55bef6",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image"
+                                },
+                                "format": "image/jpeg"
+                            },
+                            "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/2641706c-7542-4b53-b4b2-ae572e55bef6"
+                        }
+                    ],
+                    "related": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/items/925b9118-3950-4c05-bedc-38f7901abc34",
+                        "format": "text/html",
+                        "label": "Manifesto Festival di Santarcangelo \"Trilogia d'Estate\", 1985"
+                    }
+                },
+                {
+                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/59853632-6046-4a83-870e-44f3f7b423e0",
+                    "@type": "sc:Canvas",
+                    "label": "Estratto dal testo \"Genet a Tangeri: una ambientazione\"",
+                    "width": 3308,
+                    "height": 4677,
+                    "thumbnail": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/59853632-6046-4a83-870e-44f3f7b423e0/full/90,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/59853632-6046-4a83-870e-44f3f7b423e0",
+                            "profile": "http://iiif.io/api/image/2/level0.json",
+                            "protocol": "http://iiif.io/api/image"
+                        },
+                        "format": "image/png"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/59853632-6046-4a83-870e-44f3f7b423e0/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/59853632-6046-4a83-870e-44f3f7b423e0",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image"
+                                },
+                                "format": "image/png"
+                            },
+                            "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/59853632-6046-4a83-870e-44f3f7b423e0"
+                        }
+                    ],
+                    "related": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/items/57a52255-ffaa-48af-bd72-73dc5a1c05b8",
+                        "format": "text/html",
+                        "label": "Genet a Tangeri: una ambientazione"
+                    }
+                },
+                {
+                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3",
+                    "@type": "sc:Canvas",
+                    "label": "Foto di scena da Elementi di struttura del sentimento di Teatro Settimo (1986)",
+                    "width": 670,
+                    "height": 443,
+                    "thumbnail": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3/full/90,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3",
+                            "profile": "http://iiif.io/api/image/2/level0.json",
+                            "protocol": "http://iiif.io/api/image"
+                        },
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image"
+                                },
+                                "format": "image/jpeg"
+                            },
+                            "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/3a85efb3-ebb1-4f47-8ec9-ae0971b3f3c3"
+                        }
+                    ],
+                    "related": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/items/4a436f3b-e65c-4530-9a98-04a2828f4512",
+                        "format": "text/html",
+                        "label": "Elementi di struttura del sentimento [foto di scena]"
+                    }
+                },
+                {
+                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/4c856ee1-94bc-438a-bfa4-5ea4d3973bce",
+                    "@type": "sc:Canvas",
+                    "label": "Foto di scena da Santa Sofia - teatro khmer di Socìetas Raffaello Sanzio (1986)",
+                    "width": 520,
+                    "height": 768,
+                    "thumbnail": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/4c856ee1-94bc-438a-bfa4-5ea4d3973bce/full/90,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/4c856ee1-94bc-438a-bfa4-5ea4d3973bce",
+                            "profile": "http://iiif.io/api/image/2/level0.json",
+                            "protocol": "http://iiif.io/api/image"
+                        },
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/4c856ee1-94bc-438a-bfa4-5ea4d3973bce/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/iiif-server/4c856ee1-94bc-438a-bfa4-5ea4d3973bce",
+                                    "profile": "http://iiif.io/api/image/2/level1.json",
+                                    "protocol": "http://iiif.io/api/image"
+                                },
+                                "format": "image/jpeg"
+                            },
+                            "on": "https://4science-dspaceglam.eks.dev.4science.cloud/server/iiif/537612e9-424e-4491-8233-e9ae136c6627/canvas/4c856ee1-94bc-438a-bfa4-5ea4d3973bce"
+                        }
+                    ],
+                    "related": {
+                        "@id": "https://4science-dspaceglam.eks.dev.4science.cloud/items/95ae1ca0-3881-43fa-9243-d768898660ef",
+                        "format": "text/html",
+                        "label": "Santa Sofia - teatro khmer [foto di scena]"
+                    }
+                }
+            ]
+        }
+    ]
+}
